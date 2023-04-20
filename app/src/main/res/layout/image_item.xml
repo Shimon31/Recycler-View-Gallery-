@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/dummyImage"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="250dp"
+            android:src="@drawable/shimon"/>
+
+        <TextView
+            android:id="@+id/dummyTV"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is Shimon"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
